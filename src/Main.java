@@ -1,5 +1,104 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        //задание 1
+        var box = 7;
+        System.out.println(box);
+        byte count = 5;
+        System.out.println(count);
+        short apples = 128;
+        System.out.println(apples);
+        int phones = 213213;
+        System.out.println(phones);
+        long color = 21932183;
+        System.out.println(color);
+        float kyok = 1.2f;
+        System.out.println(kyok);
+        double sosamusic = 1.5;
+        System.out.println(sosamusic);
+        char c = 33;
+        System.out.println(c);
+        //задание 2
+        double boxer1 = 78.2;
+        double boxer2 = 82.7;
+        double weightofboth = boxer1 + boxer2;
+        double weightdifference = boxer2 - boxer1;
+        System.out.println("общий вес " + weightofboth);
+        System.out.println("разница в весе " + weightdifference);
+        //задание 3
+        int banana = 80;
+        System.out.println(banana + "г вес одного банана");
+        int weithBananas = banana * 5;
+        System.out.println(weithBananas + "г вес всех бананов ");
+        int milk = 200;
+        System.out.println(milk + "мл  всего молока");
+        int onePortion = milk / 2;
+        System.out.println(onePortion + "мл одна порция молока");
+        int litersToGramms = onePortion + 5;
+        System.out.println(litersToGramms + "г миллилитры в граммы");
+        int weightOfAllmilk = litersToGramms * 2;
+        System.out.println(weightOfAllmilk + "г вес всего молока");
+        int icecream = 100;
+        System.out.println(icecream + "г одна порция мороженного");
+        int icecreamweigth = icecream * 2;
+        System.out.println(icecreamweigth+ "г вес всего мороженного");
+        int egg = 70;
+        System.out.println(egg + "г вес одного яйца");
+        int allEggsWeitgh = egg * 5;
+        System.out.println(allEggsWeitgh + "г вес всех яиц");
+        float allWeitgh = weightOfAllmilk + weithBananas + icecreamweigth + allEggsWeitgh;
+        System.out.println(allWeitgh + "г общий вес коктейля в граммах");
+        float AllWeightInKg = allWeitgh / 1000;
+        System.out.println(AllWeightInKg + "кг общий вес коктейля в кг");
+        //задание 4
+        int weight = 7;
+        System.out.println(weight + "кг - вес спортсмена");
+        int weitghInGramms = weight * 1000;
+        System.out.println(weitghInGramms + "гр - вес спортсмена в граммах");
+        int first = 250;
+        int second = 500;
+        int days1 = weitghInGramms/ first;
+        System.out.println(days1 + " - кол-во дней для похудания на 250 гр в день");
+        int days2 = weitghInGramms/ second;
+        System.out.println(days2 + " - кол-во дней для похудания на 500 гр в день");
+        int types = 2;
+        int avarage = (first + second)/types;
+        int avaragedays = weitghInGramms/ avarage;
+        System.out.println(avaragedays + " - кол-во дней для похудания в среднем");
+        //задание 5
+        float Masha = 67760f;
+        float Denis = 83690f;
+        float Kristina = 76230f;
+        System.out.println("заралаты сотрудников до повышения");
+        System.out.println(Masha + " - Маша");
+        System.out.println(Denis + " - Денис");
+        System.out.println(Kristina + " - Кристина");
+        float yearM = Masha * 12f;
+        float yearD = Denis * 12f;
+        float yearK = Kristina * 12f;
+        System.out.println("зарплата сотрудников за год до повышения");
+        System.out.println(yearM + " - Маша");
+        System.out.println(yearD + " - Денис");
+        System.out.println(yearK + " - Кристина");
+        System.out.println("заралаты сотрудников после повышения");
+        float MashaUp = Masha * 1.1f;
+        System.out.println(MashaUp + " - Маша");
+        float DenisUp = Denis * 1.1f;
+        System.out.println(DenisUp + " - Денис");
+        float KristinaUp = Kristina * 1.1f;
+        System.out.println(KristinaUp + " - Кристина");
+        float yearMup = MashaUp * 12f;
+        float yearDup = DenisUp * 12f;
+        float yearKup = KristinaUp * 12f;
+        System.out.println("зарплата сотрудников за год после повышения");
+        System.out.println(yearMup + " - Маша");
+        System.out.println(yearDup + " - Денис");
+        System.out.println(yearKup + " - Кристина");
+        float DifferenceM = yearMup - yearM;
+        float DifferenceD = yearDup - yearD;
+        float DifferenceK = yearKup - yearK;
+        System.out.println("разница в доходе сотрудников за год");
+        System.out.println(DifferenceM + " - у Маши");
+        System.out.println(DifferenceD + " - у Дениса");
+        System.out.println(DifferenceK + " - у Кристины");
     }
 }
